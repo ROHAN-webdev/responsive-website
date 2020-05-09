@@ -1,0 +1,547 @@
+
+body{
+  background-color: #F9F9F9;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+p{
+  font-family: 'Karla', sans-serif;
+  color: #8B8E91; 
+  font-size: 14px;
+}
+
+/*-------TITLE-----------*/
+
+#title{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 130vh;
+}
+
+#title .container-top {
+  padding: 15% 0% 7%;
+  margin-left: 5.5rem;
+  text-align: left;
+}
+
+.title-img{
+  width: auto;
+  height: 20rem;
+  position: relative;
+  left: 5rem;
+  transform: rotate(20deg);
+}
+.big-heading{
+  font-size: 3rem;
+  font-family: 'Baloo Bhaina 2', cursive;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.btnrow{ 
+  margin-top:2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+  margin: 5% 5% 5% 0;
+}
+
+
+/*------------------------------------------- MID-1 ----------------------------------------------*/
+.mid-1{
+  margin-top: 4rem;
+  height: 22rem;
+  width: 100%;
+  background: #D5E2E9;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.mid-1 h4{
+  margin: 2rem;
+}
+.mid-1-img{
+  width: 100%;
+}
+
+/*--------------------------------------------- MID-2 ---------------------------------------*/
+
+#mid{
+  text-align: center;
+}
+.container-mid{
+  margin-top: 22rem;
+}
+.mid-2 h4{
+  font-family: 'Baloo Bhaina 2', cursive;
+  font-size: 1.7rem;
+}
+
+/*---BTNS---*/
+.serving-btn{
+  padding: 2rem 3rem 5rem 5rem;
+ 
+}
+.btn3{
+  background-color: #FFFFFF;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.26);
+  width: 10rem;
+  height: 3rem;
+  color: #4A4A4A;
+}
+
+/*------------------------------------------ TOGGLE-BTN ----------------------------------------------*/
+
+.center{
+  position: absolute;
+  left: 52rem;
+  margin-bottom: 3rem;
+}
+input[type="checkbox"]{
+  position: relative;
+  width: 50px;
+  height: 24px;
+  -webkit-appearance:none;
+  background-color: #D8D8D8;
+  outline: none;
+  border-radius: 20px;
+  transition: 0.5s;
+ 
+}
+input:checked[type="checkbox"]{
+  background: #0099FF;  
+}
+input[type="checkbox"]::before{
+  content: '';
+  
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  background: #0099FF;
+  border-radius: 20px;
+  margin-bottom: 3px;
+  top: 0;
+  right: 0;   
+  box-shadow: 0 3px 5px #D8D8D8;  
+  transition: 0.5s;
+}
+input:checked[type="checkbox"]::before{
+  right: 30px;
+  background-color: #FFFFFF;
+}
+.anual{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  right: 4rem;
+}
+.month{
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  left: 4rem;
+  bottom: 0.3rem;
+}
+/*----------------------------------------------CARDS---------------------------------------------------*/
+#pricing{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  height:25rem;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  padding: 12rem;
+  position: relative;
+  right: 5rem;
+}
+/*--------card-1------*/
+.img1{
+ margin:2rem 2rem 5rem 10rem;
+ height: 4.5rem;
+ width: 4.5rem;
+ border-radius: 100%; 
+ background-color: #0099FF;
+ box-shadow: 2px 3px 7px #8B8E91;
+}
+.img1 img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  transform: rotate(20deg);
+}
+.price-text{
+  text-align: center;
+  height: 15rem;
+  width: 15rem;
+  background-color: #fff;
+  position: absolute;
+  top: 4.5rem;
+  left: 5.5rem;
+  z-index: -1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.t-1{
+  padding: 4rem;
+}
+/*--------card-2-------*/
+.img2{
+  margin:2rem 2rem 5rem 10rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 100%; 
+  background-color: #0099FF;
+  box-shadow: 2px 3px 7px #8B8E91;
+}
+.img2 img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  transform: rotate(20deg);
+}
+/*--------card-3--------*/
+
+.img3{
+  margin:2rem 2rem 5rem 10rem;
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 100%; 
+  background-color: #0099FF;
+  box-shadow: 2px 3px 7px #8B8E91;
+}
+.img3 img{
+  height: 100%;
+  width: 100%;
+  margin: auto;
+}
+/*------texts------*/
+.t-1 h1 h4{
+  font-family: 'Baloo Bhaina 2', cursive; 
+}
+.offer h4{
+  font-size: 1.2rem;
+}
+/*----------------------------------------------FOOTER--------------------------------------------------*/
+
+/*-------------footer-1----------------*/
+
+.container-bottom1{
+  text-align: left;
+  
+}
+.container-bottom1 h2{
+  text-align: center;
+}
+.container-bottom1 h2 h5{
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+.container-bottom1 h1{
+  font-family: 'Anton', sans-serif;
+  color: #0099FF;
+  font-size: 3rem;
+  margin: 0px;
+  text-align: left;
+}
+
+.footer-table{
+  margin:auto ;
+
+}
+.botom-heading{
+  font-size: 2rem;
+  margin: 4rem auto;
+}
+.footer-img1{
+  width: auto;
+  height: 10rem;
+  border-radius: 100%;
+  position: relative;
+  right: 5rem;
+}
+.carousel-indicators{
+  position: relative;
+  top: 15rem;
+  margin-bottom: 0px;
+}
+.carousel{
+  margin-top: 4rem;
+}
+.lines{
+  background-color:#D5E2E9 !important;
+  border-radius: 100% !important;
+  height: 0.6rem !important;
+  width: 0.6rem !important; 
+}
+/*-------------footer-2----------------*/
+
+#footer{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  height: 130vh;
+}
+
+#footer .container-bottom2{
+  padding: 15% 0% 7%;
+}
+
+.footer-img2{
+  width: auto;
+  height: 20rem;
+  position: relative;
+  left: 5rem;
+  
+}
+.botom-heading{
+  font-size: 2rem;
+  font-family: 'Baloo Bhaina 2', cursive;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.btnbotom{ 
+  margin-top:2rem;
+  padding: 1rem 3rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+  color: white;
+  transition: all 0.5s ease;
+  margin: 5% 5% 5% 0;
+}
+
+
+
+/*------------------------------------------- MOBILE MODE --------------------------------------------*/
+
+
+
+
+@media screen and (max-width: 500px) {
+
+  body{
+      text-align: center;
+      overflow-x: hidden;
+      width: 100%;
+      margin: auto;
+  }
+
+  /*------TITLE--------*/
+
+  #title {
+
+    margin-top: 2rem;    
+  }
+  .container-top{
+      padding-top: 0px;
+      margin-right: 5rem;
+  }
+  .big-heading{
+      font-size: 2.5rem;
+      line-height: 47px;
+      text-align: center;
+      margin-top: 2rem;
+  }
+  .title-img {
+    width: auto;
+    height: 7rem;
+    position: absolute;
+    bottom: 21rem;
+    left: 4.5rem;
+    transform: rotate(20deg);
+      
+  }
+  .header-p{
+    text-align: center;
+  }
+  .btnrow{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 2rem;
+  }
+  .btn-1{
+      position: absolute;
+      right: 8rem;
+  }
+  .btn-2{
+      position: absolute;
+      left: 8rem;
+  }
+  .title-text{
+      margin-right:6rem;
+  }
+  /*--------MID-1-------*/
+
+  .mid-1{
+      width: 100%;
+      height: 20%;
+      margin-top:0px;
+  }
+  .mid-1-img{
+      height: 15rem;
+      width: 80%;
+      margin: auto;
+  }
+  .mid-1 img{
+      width: 100%;
+      height: 100%;
+      object-fit: fill;
+  }
+  .mid-1 h4{
+      font-size: 1rem;
+  }
+
+  /*---------MID-2------*/
+
+  .container-mid{
+      margin: auto;
+      margin-top: 8rem;
+      margin-left: 1rem;
+  }
+  .mid-2 h4{
+      font-family: 'Baloo Bhaina 2', cursive;
+      font-size: 1.3rem;
+  }
+  .mid2-p{
+      margin-top: 1rem;
+  }
+  /*---BTNS--*/
+  .serving-btn{
+      flex-direction: column;
+      margin-bottom: 1rem;
+      padding-right : 4.5rem ;
+  }
+  .serving-btn button{
+      margin: 1rem;
+      border-radius: 3px;
+  }
+
+  /*----------TOGGLE-------*/
+
+  .center{
+      position: absolute;
+      left: 10.4rem;
+  }    
+  .center h4{
+
+      font-size: 1.3rem;
+  }
+
+  /*--------CARDS---------*/
+  #pricing{
+      margin: auto;
+      margin-left: 80px;
+      margin-top: 13rem;
+      padding: 0px
+  }
+  .col-lg-4{
+      margin-top:8rem ;
+  }
+  .cards{
+      margin-top:9rem ;
+  }
+  /*---------------FOOTER--------------*/
+
+  /*--------footer-1----*/    
+
+  .container-bottom1{
+      text-align: center;
+      margin:45rem auto;
+      margin-bottom: 0rem;
+  }
+  .carousel-indicators{
+      margin-top: 3rem;
+  }
+  .carousel{
+      margin-top: 5rem;
+  }
+  .footer-table{
+      margin: auto;
+  }
+  .footer-img1{
+      width: auto;
+      height: 4rem;
+      border-radius: 100%;
+      position: absolute;
+      bottom: 10rem;
+      right: 6rem;
+  }
+  .carousel-item p{
+      font-size: 0.7rem;
+      margin-top: 2rem;
+  }
+  .container-bottom1 h1{
+      position: relative;
+      top:3rem;
+  }
+  .container-bottom1 h5{
+      margin: 0rem;
+  }
+  .ineer-p{
+      margin-top: 10px !important;
+      margin-bottom: 10px !important;
+     
+  }
+  .lines{
+      margin: auto;
+      margin-bottom:-4rem;
+  }
+  /*--------footer-2----*/
+  #footer  {
+      text-align:center;
+      margin-top:20rem ;
+    }
+    .container-bottom2{
+        padding-top: 0px;
+        margin-top: 15rem;
+    }
+    .botom-heading{
+        font-size: 2rem;
+        text-align: center;
+    }
+  
+    .footer-img2 {
+        width: auto;
+        height: 10rem;
+        position:absolute;
+        bottom: 25rem;
+        left: 6rem;
+    } 
+    .botom-p{
+      font-size: 0.7rem;
+      margin-top: 2rem;
+    }
+    .btnrow{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 2rem;
+    }
+    .btnbotom{
+        margin-right: 0rem;
+    }
+}
+
+
+/*--------------------------------------------TAB-MODE----------------------------------------------*/
+
